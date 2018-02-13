@@ -1,2 +1,15 @@
 @charset "EUC-KR";
-header{ background-color }
+
+
+header{
+	
+	background-color:#BDBDBD
+}
+
+div #top{
+	
+	list-style:none;
+	text-align:center;
+	display:inline;
+	
+}
