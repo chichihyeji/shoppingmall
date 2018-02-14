@@ -1,15 +1,18 @@
 @charset "EUC-KR";
-
-
-header{
-	
-	background-color:#BDBDBD
-}
-
-div #top{
-	
-	list-style:none;
-	text-align:center;
-	display:inline;
-	
-}
+h1{vertical-align:middle; width:5%}
+body{backgr;margin:0;font-family:verdana,µ¸¿ò;}
+ul{padding:0;}
+ul li{display:inline;padding:0 10px;}
+li a{color:#ed89dd;text-decoration:none;font-weight:bold;}
+li a:hover{color:#000;}
+.main{margin-top:30px;}
+.newul{font-size:0;margin-top:30px;}
+.newul li{padding:0;}
+p{border:1px solid #000;display:inline-block;padding:10px 20px;font-size:15px;margin:40px 0;}
+.title{text-dacoration:underline;margin:20px 0;}
+.delp{border:none;margin:0 0 30px; padding:0;}
+.tel{font-size:20px;border:none;margin-bottom:0;}
+.tel a{text-decoration:none;color:#d075c3;font-style:italic;font-weight:bold;}
+address{font-style:normal;font-size:13px;}
+.copy{background:#000;color:#fff;font-size:11px;padding:50px;margin:20px;display:block;}
+address{font-style:normal;}
