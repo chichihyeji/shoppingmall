@@ -1,0 +1,113 @@
+@charset "EUC-KR";
+* {
+    box-sizing: border-box;
+    font-family:"Courier New (Bold)",Times,Serif;
+
+}
+ .footer {
+    background-color: grey;
+    color: white;
+  
+    text-align: right;
+    
+
+ 
+}
+.header{
+ background-color: white;
+    color: grey;
+    text-align: center;
+    box-sizing:50%;
+   }
+   
+   .login{
+   
+   float:right;
+   
+   
+   }
+   .login form{
+   
+  background-color:  hsl(0, 100%, 90%);
+   }
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 15%;
+}
+.content {
+    width: 50%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: hsl(0, 100%, 90%);
+    color: #ffffff;
+     text-align:center;
+}
+.menu li:hover {
+    background-color: hsla(9, 100%, 64%, 0.8);
+   
+}
+.login{
+  border: 2px solid black;
+box-sizing: border-box;
+background-color:#0099cc;
+}
+
+.topmenu
+{
+  border-bottom: 1px fuchia;
+
+
+}
+.topmenu ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px fuchia;
+    
+
+}
+.topmenu ul li{
+ display:inline;
+ letter-spacing:5px;
+ 
+}
+.topmenu ul li a:hover{
+tex-decoration:underline;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
