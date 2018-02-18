@@ -13,30 +13,32 @@
 * {
     box-sizing: border-box;
     font-family:"Courier New (Bold)",Times,Serif;
-
 }
  .footer {
+
     background-color: grey;
     color: white;
   
     text-align: right;
     
-
  
 }
 .header{
+
  background-color: white;
     color: grey;
     text-align: center;
     box-sizing:50%;
+     border-bottom: double;
    }
    .topmenu{
+  
    font-size:13px;
    word-spacing:9px;
  
    }
    .login{
-   
+
    float:right;
    
    
@@ -81,15 +83,12 @@
 box-sizing: border-box;
 background-color:#0099cc;
 }
-
-
 .topmenu ul{
 list-style-type: none;
     margin: 0;
     padding: 0;
    
     
-
 }
 .topmenu ul li{
  display:inline;
@@ -99,27 +98,27 @@ list-style-type: none;
 .topmenu ul li a:hover{
 tex-decoration:underline;
 }
-
-
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
 }
-
 div.gallery:hover {
     border: 1px solid #777;
 }
-
 div.gallery img {
     width: 100%;
     height: auto;
 }
-
 div.desc {
     padding: 15px;
     text-align: center;
+}
+#week{
+
+font-size:20px;
+text-align: left;
 }
 </style>
 </head>
@@ -140,7 +139,7 @@ div.desc {
   </div>
 
   <div class="column content">
-    <h1>Weekly Best</h1>
+    <h1 id="week">Weekly Best</h1>
     
 <div class="gallery">
   <a target="_blank" href="../image/jenny.gif">
@@ -148,14 +147,12 @@ div.desc {
   </a>
   <div class="desc">black knit top</div>
 </div>
-
 <div class="gallery">
   <a target="_blank" href="/maintop.jpg">
     <img src="maintop.jpg" alt="black knit top" width="600" height="400">
   </a>
   <div class="desc">black knit top</div>
 </div>
-
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
     <img src=""maintop.jpg" alt="Northern Lights" width="600" height="400">
@@ -176,7 +173,6 @@ div.desc {
   </a>
   <div class="desc">black knit top</div>
 </div>
-
 <div class="gallery">
   <a target="_blank" href="/maintop.jpg">
     <img src="/maintop.jpg" alt=black knit top" width="600" height="400">
@@ -190,7 +186,6 @@ div.desc {
   </a>
   <div class="desc">black knit top</div>
 </div>
-
 <div class="gallery">
   <a target="_blank" href="/maintop.jpg">
     <img src="/maintop.jpg" alt=black knit top" width="600" height="400">
@@ -206,7 +201,6 @@ div.desc {
 </div>
    
   </div>
-
   <div class="login ">
   <form id="login">
   <fieldset>
@@ -227,7 +221,6 @@ div.desc {
     </fieldset>
   
   <%---- <td colspan="2" align="right">--%>
-
   
    <input type="submit" class="w3-button w3-pink" value="·Î±×ÀÎ">
    
@@ -243,14 +236,10 @@ div.desc {
   
   
   
-
-
  
   </form>
   
   </div>
-
 </div>
-
 </body>
 </html>

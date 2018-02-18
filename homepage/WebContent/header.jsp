@@ -21,6 +21,8 @@
      <li>REVIEW</li>
   </u1>
   </nav>
+  <div class="clearfix">
+ 
 </div>
 </body>
 </html>
